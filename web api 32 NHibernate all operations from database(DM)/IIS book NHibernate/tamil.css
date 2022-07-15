@@ -1,0 +1,273 @@
+table,th, td{
+    border-collapse: collapse;
+    font-size: 17px;
+    color:darkslateblue;
+    border: 2px solid darkseagreen;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    word-wrap: break-word;
+}
+
+td, th{
+    background-color:lightblue;
+    max-width: 100px;
+    padding: 7px;
+    text-align: justify;
+    text-align: center;
+}
+
+th{
+    font-size: 22px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+#k1{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+#div1{
+    z-index: 1;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    background-color:cornflowerblue;
+    margin-left: 800px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+#k1, #div1{
+    display: none;
+}
+
+.but_select{
+    background-color:blueviolet;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.but_select:hover, .but_select:focus{
+    background-color:midnightblue;
+}
+
+.class3 p {
+    color: black;
+    padding: 3px 5px;
+    text-decoration: none;
+    display: block;
+}
+
+.class3 p:hover{
+    cursor: pointer;
+    background-color:cadetblue;
+}
+
+.class3{
+    margin-left: 230px;
+    margin-top: -200px;
+    display: none;
+    background-color: #f1f1f1;
+    padding: 5px;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#but_show_search{
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+    background-color:blueviolet;
+    margin-left: 20px;
+    border: none;
+}
+
+#but_search{
+    padding: 4px;
+    border: none;
+    color: cornsilk;
+    background-color: blueviolet;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
+#but_search:hover, #but_add:hover{
+    background-color: midnightblue;
+}
+
+#but_show_form {
+    padding: 4px;
+    border: none;
+    color: cornsilk;
+    margin-left: 330px;
+    /* margin-top: 160px; */
+    border-radius: 5px;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+#but_show_form, #but_show_search{
+    margin-top: 0px;
+}
+
+#but_show_search:hover, #but_show_form:hover {
+    cursor: pointer;
+    background-color: midnightblue;
+}
+
+#k1 label {
+    width:180px;
+    clear:right;
+    text-align:left;
+    padding-left:0px;
+    font-size: 20px;
+    color: black;
+}
+
+#k1 input {
+    float:right;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+body{
+    background-color:khaki;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#but_add{
+    color: cornsilk;
+    background-color: blueviolet;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    margin-left: -5px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+#Search{
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+
+#add_column_value {
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    height: 24px;
+}
+
+#add_column_button{
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: blueviolet;
+    color:cornsilk;
+    height: 24px;
+}
+
+#add_column_button:hover{
+    background-color: midnightblue;
+    cursor: pointer;
+}
+
+#popup{
+    display: none;
+    position:fixed;
+    border: 2px solid black;
+    width: 350px;
+    height: 200px;
+    background-color:darkgoldenrod;
+    border: none;
+    border-radius: 5px;
+    padding: 35px;
+    text-align: center;
+    color:midnightblue;
+    z-index: 1;
+    margin-left: 7%;
+    margin-right: 10%;
+    margin-top: 1%;
+    font-size: 24px;
+    margin-left: 40%;
+}
+
+#del_confirm{
+    margin-top: 11%;
+}
+
+#del_confirm:hover, #del_cancel:hover{
+    cursor: pointer;
+    background-color: midnightblue;
+}
+
+#del_confirm, #del_cancel{
+    font-size: large;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 3px;
+    color: cornsilk;
+}
+
+#del_cancel{
+    margin-left: 30px;
+}
+
+#complete_div{
+    display: block;
+    /* filter: blur(1px); */
+    pointer-events:all;
+}
+
+#popup1{
+    position: absolute;
+    width: 350px;
+    background-color: cornsilk;
+    padding: 15px;
+    font-size: 20px;
+    color:brown;
+    border: none;
+    border-radius: 3px;
+    margin-left: 40%;
+    z-index: 1;
+    display: none;
+}
+
+#Ok{
+    background-color: navy;
+    width: 50px;
+    padding: 5px;
+    color:mintcream;
+    cursor: pointer;
+}
+
+i{
+    position: absolute;
+    font-size: 24px;
+    margin-left: 10%;
+    
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <head>
+        <title>Web 6</title>
+        <link rel='stylesheet' href='tamil.css'>
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        <div id='popup1'>
+            Please fill the below details:
+            <p id='empty_fields'></p>
+            <button id='Ok' onclick='okOnEmptyForm()'>OK</button>
+        </div>
+        <div id='popup' >Are you sure?<br>
+            <button id='del_confirm' onclick='deleteConfirm()'>confirm</button><button id='del_cancel' onclick="deleteCancel()">cancel</button>
+        </div>
+        <div id='complete_div'>
+            <div id='k1'>
+                <form name='data_form' id='data_form'></form>
+                <div id='k2'><button id='but_add' onclick='buttonAddRow()'>Add data</button></div>    
+            </div>
+            <br>    
+            <div id='div1'>
+                <div class='class1'>
+                    <input type='text' id='Search'  value='' >    
+                    <select id='but_select' class='but_select' onclick='select()'></select>
+                </div>
+                <button id='but_search' onclick='searchFunction()'>Search</button>
+                <br>
+            </div>
+            <br><br><br><br>
+            <button id='but_show_form' onclick="buttonShowForm()">Show form</button> <button id='but_show_search' onclick="showButtonSearch()">Show search</button> <input type='text' placeholder='Add column' id='add_column_value'><button id='add_column_button' onclick='addNewColumn()'>+</button> <br><br>
+        </div>
+    </body>
+    <script src='tamil.js'></script>
+</html>
